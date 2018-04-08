@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+#012345	(1,35,69)  Dark blue for h1 to h5
+#123456	(18,52,86) Lighter blue for <strong>
+*/
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ccc;
+}
+h1, h2, h3, h4, h5 {
+	color: #012345;
+}
+h1 {
+	font-size: 140%;
+}
+strong {
+	color: #123456;
+}
+#wrapper {
+	width: 90%;
+	max-width: 1200px;
+	min-height: 800px;
+	margin: 5px auto 30px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+}
+#logo {
+	width: 200px;
+}
+.makeinline {
+	display: inline;
+}
+.headpage {
+	width: 100%;
+	margin-bottom: 30px;
+}
+.headpage tr td:first-child {
+	width: 33.33%;
+	text-align: left;
+}
+.headpage tr td:nth-child(2) {
+	text-align: center;
+}
+.headpage tr td:last-child {
+	width: 34%;
+	text-align: right;
+}
+.accounting-select {
+	font-weight: bold;
+	padding: 10px 5px;
+}
+.td-style tr td {
+	font-size: 110%;
+	padding: 5px;
+	vertical-align: middle !important;
+}
+.td-style tr td:first-child, .td-style tr td:nth-child(3), .td-style tr td:nth-child(5) {
+	width: 10%;
+	text-align: right;
+	font-size: 90%;
+}
+.td-style tr td input[type="text"] {
+	text-align: left;
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 5px 3px;
+}
+.td-style tr td input[type="submit"] {
+	text-align: center;
+	width: 100%;
+}
+.li-style {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 20px;
+	display: inline-block;
+	width: 23%;
+	margin: 1%;
+	height: 200px;
+	vertical-align: top;
+	-webkit-box-shadow: 0px 0px 5px 2px #DBDBDB;
+	box-shadow: 0px 0px 5px 2px #DBDBDB;
+}
+.li-style li {
+	list-style-type: none;
+}
+.submit-retry-btns {
+	width: 200px;
+	text-align: center;
+	padding: 5px 12px;
+}
+#validation_msg {
+	font-weight: bold;
+	color: darkred;
+}
+#noresult {
+	font-size: 130%;
+	text-align: center;
+	font-weight: bold;
+}
+#myLoadingGif {
+	width: 150px;
+	height: 150px;
+	position: fixed; /* or absolute */
+	top: 50%;
+	left: 50%;
+	margin-left: -75px;
+	margin-top: -75px;
+	display: block;
+}
+ @media screen and (max-width:1000px) {
+#wrapper {
+	width: 95%;
+}
+.li-style {
+	height: 210px;
+}
+}
+ @media screen and (max-width:750px) {
+#wrapper {
+	width: 98%;
+	magrin: 0;
+}
+.td-style tr td:first-child, .td-style tr td:nth-child(3), .td-style tr td:nth-child(5) {
+	width: 100%;
+	text-align: left;
+	font-size: 100%;
+	background-color: #F0F0F0;
+}
+.headpage tr td, .td-style tr td {
+	width: 100%;
+	display: block;
+	border: none;
+}
+.headpage tr td {
+	text-align: center;
+}
+.headpage tr td:first-child {
+	width: 100%;
+	text-align: center;
+}
+.headpage tr td:nth-child(2) {
+	text-align: center;
+}
+.headpage tr td:last-child {
+	width: 100%;
+	text-align: center;
+}
+.li-style {
+	display: inline-block;
+	width: 48%;
+	margin: 1%;
+}
+}
+@media screen and (max-width:450px) {
+#wrapper {
+	width: 100%;
+	magrin: 0;
+}
+.li-style {
+	display: block;
+	width: 98%;
+	margin: 1%;
+}
+}
