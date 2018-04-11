@@ -102,15 +102,15 @@ $data = json_decode($json, TRUE);
     <div class="row">
       <div class="col-sm-12 myoutput">
      				
-				
-                   
+				                   
 		<script>   
 		$(document).ready(function(){
-			
+			//Getting URL
 			var myPath = "<?php echo($ws_url); ?>";
 			myPath = myPath.trim();
 			
 			if ( myPath!=""){
+				//Show loader here
 			$.ajax({
    			 url: myPath,
    			 dataType: 'JSON',
@@ -118,6 +118,7 @@ $data = json_decode($json, TRUE);
    			 type: 'GET',
    			 success: function (data) {
       		  console.log(data);
+			  //when done hide gif loader
     }
 });
 

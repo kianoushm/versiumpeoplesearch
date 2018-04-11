@@ -70,6 +70,7 @@ $data = json_decode($json, TRUE);
         <h3>Input:</h3>
       </div>
     </div>
+    <!--Bootstrap Grid-->
     <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 entry"><strong>First Name:</strong><input type="text" name="first_name" placeholder="eg. John"/></div>
   <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 entry"><strong>Last Name:</strong><input type="text" name="last_name" placeholder="eg. Smith"/></div>
