@@ -116,6 +116,23 @@ strong {
 	margin-top: -75px;
 	display: block;
 }
+
+.entry {
+	text-align:left !important;
+	vertical-align:bottom !important;
+	}
+
+.entry input {
+	margin-bottom:5px;
+	padding:4px;
+	border:1px solid #ccc !important;
+	width:100%;
+	
+	
+	}
+
+
+
  @media screen and (max-width:1000px) {
 #wrapper {
 	width: 95%;
